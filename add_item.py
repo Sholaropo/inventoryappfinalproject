@@ -2,6 +2,7 @@ import boto3
 import json
 import uuid  # For generating unique item_id
 
+
 dynamodb = boto3.resource("dynamodb")
 table = dynamodb.Table("Inventory")
 
